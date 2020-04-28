@@ -87,7 +87,7 @@ function draw() {
     
     if(keyDown("space") && trex.y > 159) {
       trex.velocityY = -10;
-      jump_sound.play();
+      //jump_sound.play();
       
     }
     ground.velocityX = -(6+3*score/100);
@@ -102,7 +102,7 @@ function draw() {
     trex.collide(invisibleGround); 
   
     if(score % 100 === 0 $$ score > 0){
-     checkpoint.play();
+     //checkpoint.play();
     }
   
   spawnClouds();
@@ -110,7 +110,7 @@ function draw() {
     
   if(obstaclesGroup.isTouching(trex)){
     gameState = END;
-    die_sound.play()
+    //die_sound.play()
    }  
   }
    else if(gameState === END) {
