@@ -28,9 +28,9 @@ function preload(){
   
   cloudImage = loadImage("cloud.png");
   
-  jump_sound = loadSound('jump.mp3');
+  /*jump_sound = loadSound('jump.mp3');
   checkpoint = loadSound('checkPoint.mp3');
-  die_sound = loadSound('die.mp3');
+  die_sound = loadSound('die.mp3');*/
   
   
   obstacle1 = loadImage("obstacle1.png");
